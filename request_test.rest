@@ -2,7 +2,7 @@ POST http://localhost:3001/api/persons
 Content-Type: application/json
 
 {
-    "name": "Adam Young",
+    "name": "John Wick",
     "number": "123-435"
 }
 
@@ -16,7 +16,7 @@ GET http://localhost:3001/api/persons
 GET http://localhost:3001/info
 
 ###
-GET http://localhost:3001/api/persons/2
+GET http://localhost:3001/api/persons/618a477e2211580a4cc869b3
 
 ###
 PUT http://localhost:3001/api/persons/618a477e2211580a4cc869b3
